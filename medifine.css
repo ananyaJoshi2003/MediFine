@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    contain: content;
+    /* height: 100vh; */
+}
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    /* margin: auto; */
+}
+#navbar ul{
+    margin-right: 10px;
+}
+#navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#navbar img{
+    /* border: 2px solid red; */
+    width: 70%;
+}
+
+
+.content{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+}
+.left{
+    /* border: 2px solid red; */
+    width: 55%;
+    padding-top: 30px;
+    margin-left: 50px;
+    display: block;
+}
+.left h1{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    font-size: 60px;
+}
+.left p{
+    margin-top: -30px;
+    color: rgb(68, 67, 67);
+    width: 80%;
+}
+.left button{
+    background-color: rgb(2 183 49);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.bottomangle{
+    position: absolute;
+    left: 45%;
+    /* border: 2px solid red; */
+}
+
+
+
+.right{
+    /* border: 2px solid red; */
+}
+.doctor{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 55%;
+}
+
+
+/* .right{
+    display: inline-block;
+}
+.green{
+    border: 2px solid red;
+    width: 20%;
+    z-index: -2;
+}
+.yellow{
+    border: 2px solid red;
+    width: 50%;
+} */
